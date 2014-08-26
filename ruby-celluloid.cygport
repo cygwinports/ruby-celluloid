@@ -1,0 +1,16 @@
+inherit rubygem
+
+NAME="ruby-celluloid"
+VERSION=0.15.2
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby concurrency library"
+DESCRIPTION="Celluloid enables people to build concurrent programs out of
+concurrent objects just as easily as they build sequential programs out of
+sequential objects."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_celluloid_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_celluloid_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
