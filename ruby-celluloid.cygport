@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-celluloid"
-VERSION=0.15.2
+VERSION=0.16.0
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby concurrency library"
